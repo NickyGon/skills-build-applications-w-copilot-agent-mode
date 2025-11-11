@@ -1,0 +1,100 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f0f4f8 0%, #e0e7ef 100%);
+  min-height: 100vh;
+  color: #22223b;
+}
+
+
+.App-logo {
+  height: 48px;
+  width: auto;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #3a86ff;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.App-link:hover {
+  color: #8338ec;
+  text-decoration: underline;
+}
+
+/* Bootstrap table custom colors */
+.table thead {
+  background: #3a86ff;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0e7ef;
+}
+.table-hover tbody tr:hover {
+  background-color: #bde0fe;
+}
+
+/* Bootstrap button custom colors */
+.btn-primary, .navbar .btn-primary {
+  background-color: #3a86ff;
+  border-color: #3a86ff;
+}
+.btn-primary:hover, .navbar .btn-primary:hover {
+  background-color: #8338ec;
+  border-color: #8338ec;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6, .card-title {
+  color: #3a86ff;
+  font-weight: 700;
+}
+
+/* Navbar custom colors */
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+}
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar .nav-link.active, .navbar .nav-link:focus, .navbar .nav-link:hover {
+  color: #ffbe0b !important;
+}
+
+/* Logo left alignment */
+.octofit-logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
